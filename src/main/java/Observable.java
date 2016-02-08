@@ -4,5 +4,5 @@
 public interface Observable<T> {
     void addObserver(Observer o);
     void removeObserver(Observer o);
-    T notifyObserver();
+    void notifyObserver(T t);
 }
